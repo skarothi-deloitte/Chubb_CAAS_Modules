@@ -51,14 +51,14 @@ variable "VM_Class" {
 variable "ControlPlane_Count" {
   description = "How many number of control planes you want?"
   type        = number
-  default = ""
+  # default = ""
 }
 
 
 variable "Workers_Count" {
   description = "How many number of worker nodes you want?"
   type        = number
-  default = ""
+  # default = ""
 }
 
 variable "Storage_Class" {
