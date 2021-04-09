@@ -16,7 +16,7 @@ resource "kubernetes_manifest" "tanzukubernetescluster_job_tkc01" {
     "apiVersion" = "run.tanzu.vmware.com/v1alpha1"
     "kind"       = "TanzuKubernetesCluster"
     "metadata" = {
-      "name"      = ${var.Tanzu_Kubernetes_Cluster}
+      "name"      = var.Tanzu_Kubernetes_Cluster
       "namespace" = var.Tanzu_Namespace
     }
     "spec" = {
